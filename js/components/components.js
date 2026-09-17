@@ -93,3 +93,5 @@ function initSearch(){
  const s=document.getElementById("searchSubmit");if(s)s.onclick=()=>{const q=document.getElementById("whereValue").textContent;location.href=link("pages/public/search-results.html")+(q&&q!=="Search destinations"?`?q=${encodeURIComponent(q)}`:"")};
  document.addEventListener("click",()=>document.querySelectorAll(".search-pop").forEach(p=>p.classList.add("hidden")),{once:false});
 }
+
+

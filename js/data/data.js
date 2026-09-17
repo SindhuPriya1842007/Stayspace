@@ -30,3 +30,4 @@ window.STAYSCAPE_DATA = {
     {id:"admin",name:"Demo Admin",email:"admin@stayscape.demo",password:"admin123",role:"admin"}
   ]
 };
+
